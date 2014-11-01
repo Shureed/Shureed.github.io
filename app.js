@@ -1,6 +1,11 @@
 /**
  * Created by shureedkabir on 10/13/14.
  */
+SC.initialize({
+    client_id: 'YOUR_CLIENT_ID'
+});
+
+
 $(document).ready(function(){
 
 
@@ -148,6 +153,13 @@ $(document).ready(function(){
         $('#welcome_page').delay(800).fadeIn();
     });
 
+
+
+    //sc
+
+    SC.get('/tracks/293', function(track) {
+        SC.oEmbed('https://soundcloud.com/aboveandbeyond/group-therapy-050-with-above-and-beyond', document.getElementById('player'));
+    });
 
 
 
