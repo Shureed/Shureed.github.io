@@ -76,8 +76,8 @@ a:hover{
     border-width: 1px;
 }
 
-.body_section div{
-
+.body_section ul{
+    list-style: none;
 }
 
 /** PAGES **/
