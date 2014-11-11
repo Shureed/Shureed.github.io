@@ -102,6 +102,69 @@ h3{
     color: white;
 }
 
+.nav{
+
+    background-color: black;
+    border-radius: 100%;
+    border-color: #ff0000;
+    border-style: solid;
+    border-width: 2px;
+    height: 3em;
+    width: 3em;
+    transition: background-color .4s ease;
+    position: absolute;
+    bottom: 1.3em;
+    margin-left: -1.5em;
+    left: 50%;
+    /**
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+    margin: auto;
+    **/
+}
+
+.navActive{
+    background-color: #ff0000;
+}
+
+.navClick{
+    border-color: white;
+}
+
+.arrActive{
+    border-top-color: black;
+}
+
+.arrInactive{
+    border-top-color: black;
+}
+
+.ard{
+
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #ff0000;
+    margin: auto;
+    margin-top: 1.3em;
+    transition: border-top-color .4s ease;
+
+}
+
+
+.nav2{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #f00;
+    margin: auto;
+}
+
 /** PAGES **/
 
 #welcome_page p{
@@ -111,9 +174,25 @@ h3{
     color: #E2E2E2;
 }
 
+#aboutme_page{
+    overflow: auto;
+    height: 30em;
+    width: 31em;
+}
+
+#aboutme_page::-webkit-scrollbar { width: 0 !important }
+
+.aboutme_size{
+    width: 30em;
+    height: 30em;
+    position: relative;
+
+}
+
 #languages_page p{
     white-space: nowrap;
 }
+
 
 img{
     height: 28.4em;

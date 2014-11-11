@@ -7,48 +7,7 @@ $(document).ready(function(){
 
 
 //body_box animation, with given body page
-    var banimate = function(){
 
-        var h = $('#welcome_page').height();
-        var w = $('#welcome_page').width();
-        $(this).animate({
-                height: h
-            },
-            'slow',
-            'swing'
-        );
-
-        $(this).delay(100).animate({
-                width: w
-            },
-            'slow',
-            'swing'
-        );
-    };
-
-
-    var banimate2 = function(){
-
-        var h = $(this).height();
-        var w = $(this).width();
-
-        var ph = $('#body_box').height();
-        var pw = $('#body_box').width();
-
-        $('#body_box').animate({
-                height: h
-            },
-            'slow',
-            'swing'
-        );
-
-        $('#body_box').delay(100).animate({
-                width: w
-            },
-            'slow',
-            'swing'
-        );
-    };
 
    function banimate3(a) {
        var h = $(a).height();
@@ -60,7 +19,7 @@ $(document).ready(function(){
                height: h
            },
            {
-               easing:'swing',
+               easing:'easeOutExpo',
                duration:300
            }
        );
@@ -69,7 +28,7 @@ $(document).ready(function(){
                width: w
            },
            {
-               easing:'swing',
+               easing:'easeOutExpo',
                duration:300
 
            }
@@ -114,7 +73,7 @@ $(document).ready(function(){
         $('.menu_items').removeClass('menu_active');
         $(this).addClass('menu_active');
         $('.body_section').fadeOut('fast');
-        banimate3('#aboutme_page');
+        banimate3('.aboutme_size');
         $('#aboutme_page').delay(800).fadeIn();
     });
 
@@ -152,7 +111,48 @@ $(document).ready(function(){
 
 
 
-    //sc
+    //nav button clicks
+
+    $('.nav').hover(
+        function() {
+            $(this).addClass('navActive');
+            $('.ard', this).css('border-top-color', 'black');
+        }, function(){
+            $(this).removeClass('navActive');
+            $('.ard', this).css('border-top-color', 'red');
+        }
+    );
+
+
+
+
+
+    //nav button function
+    $('.nav').click(function(){
+
+        $n = $(this).parent().next();
+
+        $('#aboutme_page').scrollTo($n, {easing:'easeOutExpo', duration:800});
+
+
+    });
+
+
+
+    /**
+    $('.nav')
+        .mouseup(function(){
+            $(this).css('transition', 'border-color 0s');
+            $(this).css('border-color', 'red');
+
+        })
+        .mousedown(function(){
+
+            $(this).css('transition', 'border-color .5s');
+            $(this).css('border-color', 'white');
+        });
+
+    **/
 
 
 
