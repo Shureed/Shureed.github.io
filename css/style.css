@@ -1,0 +1,34 @@
+.skill-items{
+    margin-left: 3rem;
+}
+
+.column-headers{
+    font-weight: 600;
+}
+
+.section-separator{
+    border-bottom: 1px solid #aeaeae;
+}
+
+.section{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.title-name{
+    margin: 4rem;
+    text-align: center;
+}
+
+.experience-date{
+
+}
+
+.connect-buttons{
+    text-align: center;
+}
+
+img{
+    max-height: 25rem;
+    width: auto;
+}
