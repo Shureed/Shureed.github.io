@@ -7,8 +7,10 @@
 }
 
 .section-separator{
-    border-bottom: 1px solid #aeaeae;
+    border-bottom: 2px solid rgba(0, 169, 203, 0.32);
 }
+
+/* original bar color: #aeaeae at 1px */
 
 .section{
     margin-top: 4rem;
