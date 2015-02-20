@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48966268" vertical-offset="330" max-vertical-offset="4890">
-              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.52230686" vertical-offset="330" max-vertical-offset="4920">
+              <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -577,7 +577,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424397123505</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="small edits">
+      <created>1424397387575</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1424397387575</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -632,9 +638,9 @@
     <MESSAGE value="added resume" />
     <MESSAGE value="small tweaks" />
     <MESSAGE value="added some links" />
-    <MESSAGE value="small edits" />
     <MESSAGE value="small editss" />
-    <option name="LAST_COMMIT_MESSAGE" value="small editss" />
+    <MESSAGE value="small edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="small edits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -797,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48966268" vertical-offset="330" max-vertical-offset="4890">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.52230686" vertical-offset="330" max-vertical-offset="4920">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
           <folding />
         </state>
       </provider>
